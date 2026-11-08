@@ -161,9 +161,11 @@ catering/
 │       └── style.css              # Custom storefront theme
 │
 ├── classes/                       # Backend architecture & helpers
-│   ├── DataAccess.php             # Database abstraction layer
-│   ├── Forming.php                # Dynamic HTML form generator
-│   └── Validation.php             # Form validation & security filters
+│   ├── DataAccess.class.php       # Database abstraction layer
+│   ├── FormAssist.class.php       # Dynamic HTML form generator
+│   ├── FormValidator.class.php    # Form validation & security filters
+│   ├── FileUpload.class.php       # Secure image & file uploader
+│   └── database.php               # Database configuration
 │
 ├── config/                        # Global system configuration
 │   ├── autoload.php               # Path configurations & class loader
