@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Catering</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .bill-container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .bill-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .bill-header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #333;
+        }
+        .bill-header p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #777;
+        }
+        .restaurant-info, .customer-info {
+            display: inline-block;
+            width: 48%;
+            vertical-align: top;
+            font-size: 16px;
+        }
+        .customer-info {
+            text-align: right;
+        }
+        .bill-details {
+            clear: both;
+            margin-top: 20px;
+            border-top: 2px solid #ddd;
+            padding-top: 20px;
+        }
+        .bill-details table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .bill-details th, .bill-details td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .bill-details th {
+            background-color: #f2f2f2;
+        }
+        .total-amount {
+            text-align: right;
+            margin-top: 20px;
+        }
+        .total-amount p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            border-top: 2px solid #ddd;
+            padding-top: 10px;
+        }
+        .print-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .print-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script>
+        function printBill() {
+            window.print();
+        }
+    </script>
+</head>
+<body>
+
+<div class="bill-container">
+    
+    <!-- Bill Header -->
+    <div class="bill-header">
+        <h1>Catering</h1>
+        <p>Date: <strong>October 7, 2024</strong></p>
+        <p>Bill #: <strong>FB-98765</strong></p>
+    </div>
+
+    <!-- Restaurant Information -->
+    <div class="restaurant-info">
+        <strong>Restaurant Name</strong><br>
+        123 Food St., Gourmet District<br>
+        City, Country 67890<br>
+        Phone: +1 (123) 456-7890<br>
+        Email: info@restaurant.com
+    </div>
+
+    <!-- Customer Information -->
+    <div class="customer-info">
+        <strong>Customer Name</strong><br>
+        456 Customer Rd.<br>
+        City, Country 12345<br>
+        Phone: +1 (987) 654-3210<br>
+        Email: customer@example.com
+    </div>
+
+    <!-- Bill Details -->
+    <div class="bill-details">
+        <table>
+            <thead>
+                <tr>
+                    <th>Item Description</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pizza Margherita</td>
+                    <td>2</td>
+                    <td>$10.00</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Pasta Carbonara</td>
+                    <td>1</td>
+                    <td>$12.00</td>
+                    <td>$12.00</td>
+                </tr>
+                <tr>
+                    <td>Caesar Salad</td>
+                    <td>1</td>
+                    <td>$8.00</td>
+                    <td>$8.00</td>
+                </tr>
+                <tr>
+                    <td>Soft Drink</td>
+                    <td>2</td>
+                    <td>$2.50</td>
+                    <td>$5.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Total Amount -->
+    <div class="total-amount">
+        <p>Subtotal: $45.00</p>
+        <p>Tax (5%): $2.25</p>
+        <p><strong>Total Amount Due: $47.25</strong></p>
+    </div>
+
+</div>
+
+<!-- Print Button -->
+<button class="print-button" onclick="printBill()">Print Bill</button>
+
+<!-- Thank You Note as Footer -->
+<footer>
+    <p>Thank you for dining with us!</p>
+    <p>We hope to see you again soon!</p>
+</footer>
+
+</body>
+</html>

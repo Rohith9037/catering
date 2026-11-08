@@ -1,0 +1,42 @@
+# ==============================================================================
+# Online Catering Management System - .gitignore
+# ==============================================================================
+
+# Temporary, Backup & Copy Folders
+/admin - Copy/
+admin - Copy/
+/vegetable-website-template - Copy/
+vegetable-website-template - Copy/
+/veg/
+veg/
+/ocm/
+ocm/
+/ocms/
+ocms/
+/temp/
+temp/
+
+# Duplicate / Redundant Database Dumps (keeping canonical catering.sql in root)
+catering (1).sql
+customer/*.sql
+*.sql.bak
+*.bak
+
+# Stray / Deprecated Root Files
+category.php
+
+# Environment & Server Local Overrides
+.env
+.env.local
+*.log
+
+# OS & Editor Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
