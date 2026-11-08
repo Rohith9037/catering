@@ -1,7 +1,7 @@
-# 🍽️ Feastify — Online Catering Management System
+# 🍽️ Chic Catering — Online Catering Management System
 
 <p align="center">
-  <img src="customer/img/hero-img-1.png" alt="Feastify Catering Banner" width="480" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+  <img src="customer/img/hero-img-1.png" alt="Chic Catering Banner" width="480" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@
 
 ## 🌟 Overview
 
-**Feastify** is a comprehensive, production-grade event catering management system engineered for professional caterers, banquet services, event planners, and culinary businesses. 
+**Chic Catering** is a comprehensive, production-grade event catering management system engineered for professional caterers, banquet services, event planners, and culinary businesses. 
 
 It provides an **end-to-end customer booking flow** — from browsing curated catering menu packages (Wedding Buffets, Corporate Gala, Birthday Feasts) and individual a la carte dishes, to scheduling event dates, selecting meal times (Breakfast, Lunch, High Tea, Dinner), managing a mobile-first shopping cart, and checking out through an integrated payment workflow.
 
